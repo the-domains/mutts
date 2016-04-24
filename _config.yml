@@ -1,40 +1,40 @@
-name: mutts
-favicon: null
-layout_spectrum: 0.99699
-typography_spectrum: 0.1077
+layout_spectrum: 0.6574468
+opengraph:
+  image: null
+  type: null
+  appId: null
 collections:
   - index:
       path: /
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+    permalink:
+      path: '/:title/'
+purpose: []
 color:
+  saturation: 0.5
+  brandStrength: 0.25
+  rhythmicContrast: 0.5
   brandColors:
     - '#C8C4BB'
     - '#E4E3E1'
     - '#2B292A'
     - '#925945'
     - '#6B3C32'
-  brandStrength: 0.25
   lightness: 0.625
-  saturation: 0.5
-  rhythmicContrast: 0.5
-purpose: []
+typography_spectrum: 0.06382979
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: mutts
